@@ -1,0 +1,24 @@
+js
+
+- number
+- string
+- boolean
+- null
+- undefined
+- object
+
+ts
+
+- any
+- unknown
+- never
+- enum
+- tuple
+
+### built-in types
+
+- ts can infer/detect type based on the values, so we don't declare at first
+- tuple is useful with 2 values, especially key/value
+- enum
+  - add const flag in enum, tsc will generate an optimize and concise code
+  - starts with 0

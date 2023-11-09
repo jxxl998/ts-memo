@@ -1,10 +1,17 @@
-const output: string = 'hello'
+// const small = 1
+// const medium = 2
+// const large = 3
 
-console.log(output)
-
-
-let age: number = 20
-
-if (age < 50) {
-  age += 10
+// PascalCase
+enum Size {
+  Small = 1,
+  Medium,
+  Large
 }
+
+// const enum Size {}
+
+let mySize: Size = Size.Medium
+
+console.log(mySize);
+
