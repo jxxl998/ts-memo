@@ -1,6 +1,11 @@
-// literal (exact, specific)
-type Quantity = 10 | 500
+// nullable types
+function greet(name: string | null | undefined) {
+  if (name) {
+    console.log(name.toUpperCase());
+  }
+  else {
+    console.log("Hola!");
+  }
+}
 
-let quantity: Quantity = 10
-
-type Metric = 'cm' | 'inch'
+greet(null)
