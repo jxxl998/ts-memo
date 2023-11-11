@@ -22,3 +22,10 @@ ts
 - enum
   - add const flag in enum, tsc will generate an optimize and concise code
   - starts with 0
+
+### function
+
+tsconfig
+
+- noUnusedParameters
+- noImplicitReturns
