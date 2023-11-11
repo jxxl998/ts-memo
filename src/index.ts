@@ -1,16 +1,6 @@
-// intersection type
+// literal (exact, specific)
+type Quantity = 10 | 500
 
-type Draggable = {
-  drag: () => void;
-}
+let quantity: Quantity = 10
 
-type Resizable = {
-  resize: () => void;
-}
-
-type UIWidget = Draggable & Resizable
-
-let textBox: UIWidget = {
-  drag: () => { },
-  resize: () => { }
-}
+type Metric = 'cm' | 'inch'
