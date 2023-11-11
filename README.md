@@ -35,7 +35,6 @@ tsconfig
 ### advanced types
 
 - type alias
-  -
 - unions and intersections
 - type narrowing
 - nullable types
