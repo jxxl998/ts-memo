@@ -29,3 +29,15 @@ tsconfig
 
 - noUnusedParameters
 - noImplicitReturns
+
+### object
+
+### advanced types
+
+- type alias
+  -
+- unions and intersections
+- type narrowing
+- nullable types
+- the unknown type
+- the never type
